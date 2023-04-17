@@ -82,8 +82,8 @@ function problemC() {
       exerciseUtils.blue(respuesta);
       return exerciseUtils.promisifiedReadFile("poem-one/stanza-04.txt");
     })
-    .then((nv) => {
-      exerciseUtils.blue(nv);
+    .then((nav) => {
+      exerciseUtils.blue(nav);
     })
     .catch((err) => {
       exerciseUtils.magenta(err);
